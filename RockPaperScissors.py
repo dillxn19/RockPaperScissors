@@ -33,5 +33,9 @@ while myWins < 5 and compWins < 5:
     print()
     print("                  Score    ")
     print("Player:",myWins, "     Computer:",compWins)
+if myWins == 5:
+    print("Player wins the game!!!")
+else:
+    print("Computer wins the game!!!")
     
 
